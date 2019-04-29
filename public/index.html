@@ -3,12 +3,28 @@
 <html>
   <head>
       <link href='./style.css' rel='stylesheet'>
-      <script src='./bundle.js'></script>
+      <link href='https://api.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css' rel='stylesheet' />
   </head>
   <body>
-
-
+    <header id="navbar">
+      <h1>YOUR MAP</h1>
+    </header>
     <div id='map'></div>
+    <div id="locationSelector">
+      <div id="hotels">
+        <h2>Hotels</h2>
+        <select></select>
+      </div>
+      <div id="restaurants">
+          <h2>Restaurants</h2>
+          <select></select>
+      </div>
+      <div id="activities">
+          <h2>Things To Do</h2>
+          <select></select>
+      </div>
+    </div>
+    <script src='./bundle.js'></script>
   </body>
 
 </html>
